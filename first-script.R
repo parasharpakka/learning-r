@@ -6,7 +6,9 @@ B=c(3,2,1)
 #matrix
 mat=matrix(c(1,2,3,4))
 mat2=matrix(c(1,2,3,4), ncol=2)
-?matrix
+mat2
+mat2[1,1]	# Indexing matrix
+?matrix		# to know about various function associated with matrix
 mdat <- matrix(c(1,2,3, 11,12,13), nrow = 2, ncol = 3, byrow = TRUE,
 +                     dimnames = list(c("row1", "row2"),
 +                                     c("C.1", "C.2", "C.3")))
